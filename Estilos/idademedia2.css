@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: auto;
+    background-color: #332817;
+}
+
+.global{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: bisque;
+    box-shadow: 15px 0px 15px #EFC37B;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.global p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.6em;
+    font-size: 1.1em;
+}
+
+
+div h1{
+    font-size:2em;
+    font-family: 'Merriweather', cursive;
+    text-align: left;
+    color: #332817;
+}
+
+div h2{
+    font-size:1.7em;
+    font-family: 'Merriweather', cursive;
+    text-align: left;
+    color: #332817;
+}
+
+.conter{
+    list-style-position: inside;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    box-shadow: 3px 7px 9px rgba(0, 0, 0, 0.352);
+    
+}
+.segundo ol{
+    flex: 1;
+    padding-right: 20px;
+    
+}
+.segundo a{
+    color: #332817;
+    font-weight: bolder;
+
+}
+
+.segundo a:hover{
+    text-decoration: underline;
+    color:#EFC37B;
+}
+
+li{
+    background-color: rgb(126, 30, 30);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+ol {
+    font-size: 20px;
+}
+.conter-imagem{
+    position: relative;
+    padding: 20px;
+}
+.floating{
+    position: absolute;
+    top: -100px;
+    left: 800px;
+    width: 150px;
+    border-radius: 8px;
+    z-index: 10;
+}
+.quinto img{
+    display: block;
+    margin: auto;
+    height: 250px;
+    width: 443px;
+}
+.sexto{
+    background-color: #9B9182;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+}
+.sexto > p > a{
+    color: white;
+    font-weight: bolder;
+}
+.sexto a:hover{
+    color: #332817;
+}
